@@ -1,0 +1,45 @@
+.submenu-container {
+    width: 50px;
+    height: 500px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn-submenu {
+    color: white;
+    background-color: gray;
+    border: solid gray;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 250px;
+    position: relative;
+}
+
+.subitem {
+    margin-bottom: 25px;
+}
+
+.sublink {
+    color: white;
+}
+
+.sublink:hover {
+    color: yellow;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background-color: gray;
+    width: 100px;
+    height: 500px;
+    /* z-index: 1; */
+    opacity: 0;
+}
+
+.submenu-container:hover .submenu {
+    opacity: 1;
+}
